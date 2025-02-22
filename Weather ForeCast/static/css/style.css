@@ -1,0 +1,39 @@
+/* style.css */
+body {
+    background: linear-gradient(135deg, #89f7fe 0%, #66a6ff 100%);
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.weather-card {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    padding: 2rem;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    max-width: 600px;
+    margin: 2rem auto;
+}
+
+.search-box {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.weather-icon {
+    width: 100px;
+    height: 100px;
+}
+
+#loading {
+    display: none;
+    text-align: center;
+    margin: 20px;
+}
+
+.forecast-day {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 0.5rem;
+}
